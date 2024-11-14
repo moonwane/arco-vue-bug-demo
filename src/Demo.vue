@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import { Form as AForm } from '@arco-design/web-vue'
-import { reactive, ref } from 'vue'
+import { reactive } from 'vue'
 
 const formData = reactive({})
-const formRef = ref()
 </script>
 
 <template>
